@@ -6,11 +6,13 @@ Namazon - E-Commerce
 ### For FrontEnd:-
 ####
 > **NextJS**
+####
 > **ReactJS**
 
 ### for Back-End:-
 ####
 > **NodeJS**
+####
 > **ExpressJS**
 
 ### for DataBase:-
