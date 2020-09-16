@@ -1,7 +1,8 @@
 # Namazon
 Namazon - E-Commerce
 
->Creating E-Commerce Site using:
+## Creating E-Commerce Site using:
+----
 >>For FrontEnd:-
 **NextJS**
 **ReactJS**
