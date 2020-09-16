@@ -2,7 +2,7 @@
 Namazon - E-Commerce
 
 ## Creating E-Commerce Site using:
-----
+
 ### For FrontEnd:-
 ####
 > **NextJS**
