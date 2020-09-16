@@ -3,16 +3,16 @@ Namazon - E-Commerce
 
 ## Creating E-Commerce Site using:
 ----
->For FrontEnd:-
+### For FrontEnd:-
 ####
-**NextJS**
-**ReactJS**
+> **NextJS**
+> **ReactJS**
 
->for Back-End:-
+### for Back-End:-
 ####
-**NodeJS**
-**ExpressJS**
+> **NodeJS**
+> **ExpressJS**
 
->for DataBase:-
+### for DataBase:-
 ####
-**MongoDB**
+> **MongoDB**
