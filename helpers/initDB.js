@@ -1,21 +1,25 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose';
 
-function initDB() {
-    if (mongoose.connections[0].readyState) {
-        console.log("Already Connected with DB");
+
+const initDB = () => {
+    if(mongoose.connections[0].readyState){
+        console.log('Already Connected with MongoDB')
         return
     }
+    
     mongoose.connect(process.env.MONGO_URI, {
         useNewUrlParser: true,
-        useUnifiedTopology: true
+        useUnifiedTopology: true,
+        useCreateIndex: true
     })
 
-    mongoose.connection.on('connected', () => {
-        console.log('Connected to MongoDB');
+    mongoose.connection.on('connected', ()=> {
+        console.log('Connected with MongoDB')
     })
-    mongoose.connection.on('error', () => {
-        console.log('Error occured in connection with DB');
+
+    mongoose.connection.on('error', (err)=> {
+        console.log('Error in Connectiong with MongoDB :- ', err)
     })
 }
 
-export default initDB
+export default initDB;
